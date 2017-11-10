@@ -1,0 +1,84 @@
+body{padding: 0px; margin: 0px;  font-family: 'Roboto', sans-serif !important; }
+.noPadding{padding-left: 0px !important; padding-right: 0px !important;}
+.noMargin{margin-left: 0px !important; margin-right: 0px !important;}
+.centermargin{margin: 0 auto;}
+.noBorder{border: 0px;}
+.fLeft{float: left;}
+.fRight{float: right;}
+temBorder{border: 1px solid green; padding: 10px;}
+.textCenter{text-align: center;}
+.fa-lg {
+    font-size: 1.4em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+
+/* padding class */
+.xsPaddingLeft{padding-left: 5px;}
+.smPaddingLeft{padding-left: 10px;}
+.mdPaddingLeft{padding-left: 20px;}
+.lgPaddingLeft{padding-left: 30px;}
+
+.xsPaddingRight{padding-left: 5px;}
+.smPaddingRight{padding-left: 10px;}
+.mdPaddingRight{padding-left: 20px;}
+.lgPaddingRight{padding-left: 30px;}
+
+.xsPaddingTop{padding-left: 5px;}
+.smPaddingTop{padding-left: 10px;}
+.mdPaddingTop{padding-left: 20px;}
+.lgPaddingTop{padding-left: 30px;}
+
+/* margin class */
+.xsMarginLeft{margin-left: 5px;}
+.smMarginLeft{margin-left: 10px;}
+.mdMarginLeft{margin-left: 20px;}
+.lgMarginLeft{margin-left: 30px;}
+
+.xsMarginRight{margin-right: 5px;}
+.smMarginRight{margin-right: 10px;}
+.mdMarginRight{margin-right: 20px;}
+.lgMarginRight{margin-right: 30px;}
+
+.xsMarginTop{margin-top: 5px;}
+.smMarginTop{margin-top: 15px;}
+.mdMarginTop{margin-top: 60px;}
+.lgMarginTop{margin-Top: 100px;}
+
+
+/* login page start here */
+
+.login .form-control{
+    display: block;
+    width: 85%;
+    height: 50px;
+    color: #555;
+    background-color:transparent;
+    border: 1px solid #333132;
+    border-radius: 0px 6px 6px 0px;
+    padding: 6px 18px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.formIcon{
+    float: left;
+    width: 15%;
+    height: 50px;
+    padding: 15px 0px 0px 6%;
+    background: #333334;
+    border-radius: 6px 0px 0px 6px;
+    color: #fff;
+}
+.login .btn-default{
+    color: #fff;
+    background-color: #284595;
+    border:none;
+    font-size: 15px;
+    padding: 14px 0px;
+    border-radius: 6px;
+    font-family: 'Roboto', sans-serif !important;
+}
+.signup{
+    font-size: 12px; font-weight: bold; color: #333;
+}
