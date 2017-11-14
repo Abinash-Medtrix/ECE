@@ -82,3 +82,185 @@ temBorder{border: 1px solid green; padding: 10px;}
 .signup{
     font-size: 12px; font-weight: bold; color: #333;
 }
+
+.eceLogo{
+    background: #31b5b7;
+    height: 50px;
+    padding-top: 12px;
+}
+
+
+/* slide nav class */
+.navBtn{
+    background: transparent;
+    border: none;
+    color: #a1dddd;
+    padding: 1px 15px;
+    font-size: 18px;
+}
+.navbar {
+    margin-bottom: 10px !important;
+}
+
+.navbar :focus{
+    border: none;
+    outline: 0px;
+}
+
+/* home page class */
+.imgTxt{
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    background: #31b5b7;
+    padding: 10px 20px;
+    border-radius: 0px 10px 0px 0px;
+    bottom: 0px;
+}
+
+.imgShadow{
+    -webkit-box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.75);
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 111;
+    top: 0;
+    left: 0;
+    background-color: #f8f8fa;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.closebtn{
+    background:#000; height:100%; position: fixed; z-index: 11; display: none; opacity: 0.3;
+}
+.user{
+    background: #31b5b7; height: 150px;
+}
+.user .img-circle {
+    border-radius: 50%;
+    border: 1px solid #264691;
+    padding: 2px;
+    margin: 20px;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav li a {
+    font-size: 14px;
+  }
+  
+  #accordionMenu {
+    max-width: 100%;
+  }
+  
+  .panel-body {
+    padding: 0;
+  }
+  
+  .panel-group .panel+.panel {
+    margin-top: 0;
+    border-top: 0;
+  }
+  
+  .panel-group .panel {
+    border-radius: 0;
+  }
+  
+  .panel-default>.panel-heading {
+    color: #FFF;
+    background-color: #31b5b7;
+    border: none;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .panel-default>.panel-heading a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .panel-default>.panel-heading a:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="true"] {
+    background-color: #31b5b7;
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="true"]:after {
+    content: "\e113";
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="false"]:after {
+    content: "\e114";
+  }
+
+  .panel {
+    border: none !important; box-shadow: none !important;
+}
+.panel-group {
+    margin-bottom: 0px !important;
+}
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #31b5b7 !important ;
+    border: none !important ;
+}
+.userPanel{
+    border: none;
+    background: #31b5b7;
+}
+.userPanel .nav li a {
+    color: #fff;
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none !important;
+    background-color: transparent !important;
+    color: #294495;
+}
+
+.nav li a {
+    font-size: 16px;
+    padding: 12px 5px !important;
+}
+.mainNav ul li a{
+    color:#727272;
+}
+
+.mainNav ul li a span{
+    padding-left: 20px;
+}
