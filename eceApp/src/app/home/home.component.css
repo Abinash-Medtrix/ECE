@@ -1,0 +1,3 @@
+.closebtn{
+    background:#000; height:100%; position: fixed; z-index: 11; display: none; opacity: 0.3;
+}
