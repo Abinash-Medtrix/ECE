@@ -1,9 +1,8 @@
-<div class="col-xs-12 col-md-12 lgMarginTop">
+<div class="col-xs-12 col-md-12 lgMarginTop allPadding">
     <img class="img-responsive centermargin" src="/assets/images/logoxhdpi.png" width="240" height="220" alt="logo">
   </div>
 
-  <div class="col-xs-12 col-md-12 mdMarginTop login">
-
+  <div class="col-xs-12 col-md-12 mdMarginTop login allPadding">
     <form name="form" (ngSubmit)="f.form.valid && login()" #f="ngForm" novalidate>
         <div class="form-group" [ngClass]="{ 'has-error': f.submitted && !username.valid }">
             <div class="fLeft formIcon"><i class="fa fa-paper-plane" aria-hidden="true"></i></div>

@@ -16,6 +16,9 @@ import { AlertService, AuthenticationService, UserService } from './_services/in
 import { HomeComponent } from './home/index';
 import { LoginComponent } from './login/index';
 import { RegisterComponent } from './register/index';
+import { HomeSubComponent } from './home-sub/home-sub.component';
+import { SubNavComponent } from './sub-nav/sub-nav.component';
+import { TrailComponent } from './trail/trail.component';
 
 @NgModule({
   imports: [
@@ -30,6 +33,9 @@ declarations: [
     HomeComponent,
     LoginComponent,
     RegisterComponent,
+    HomeSubComponent,
+    SubNavComponent,
+    TrailComponent,
 
 ],
 providers: [

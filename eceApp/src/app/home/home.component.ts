@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import {Location} from '@angular/common';
 import { User } from '../_models/index';
 import { UserService } from '../_services/index';
 declare var $: any;
@@ -27,8 +27,6 @@ export class HomeComponent implements OnInit {
               $('.closebtn').hide();
             });
           });
-
-          
     }
 
     ngOnInit() {
