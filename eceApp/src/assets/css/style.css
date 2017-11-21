@@ -5,8 +5,8 @@ body{padding: 0px; margin: 0px;  font-family: 'Roboto', sans-serif !important; }
 .noBorder{border: 0px;}
 .fLeft{float: left;}
 .fRight{float: right;}
-temBorder{border: 1px solid green; padding: 10px;}
 .textCenter{text-align: center;}
+.textRight{text-align: right;}
 .fa-lg {
     font-size: 1.4em;
     line-height: .75em;
@@ -198,9 +198,9 @@ ul {
   }
   
   .panel-default>.panel-heading a:after {
-    content: "";
+    content: "\e114";
     position: relative;
-    top: 1px;
+    top: -9px;
     display: inline-block;
     font-family: 'Glyphicons Halflings';
     font-style: normal;
@@ -216,7 +216,9 @@ ul {
   .panel-default>.panel-heading a[aria-expanded="true"] {
     background-color: #31b5b7;
   }
-  
+
+
+ 
   .panel-default>.panel-heading a[aria-expanded="true"]:after {
     content: "\e113";
   }
@@ -233,7 +235,7 @@ ul {
 }
 .panel-default>.panel-heading {
     color: #333;
-    background-color: #31b5b7 !important ;
+    background-color: #31b5b7  ;
     border: none !important ;
 }
 .userPanel{
@@ -319,10 +321,203 @@ ul {
     color: #666666;
 }
 
-.boxWShadow h5{
- font-weight: bold; margin-bottom: 0px;
+
+
+/* trail page css */
+.myAccodian .panel-default>.panel-heading{
+    background-color: #FFF;
+    -webkit-box-shadow: 1px 1px 7px 0px rgba(0,0,0,0.75);
+    height: 80px;
+}
+.myAccodian  .panel-default>.panel-heading a[aria-expanded="true"] {
+    background-color: #ffffff;
 }
 
-.boxWShadow p{
-    font-size:12px; 
+.myAccodian .panel-default>.panel-heading a {
+    display: block;
+    padding: 22px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #666666;
+    font-weight: bold;
+}
+.panel-group .panel {
+    margin-bottom: 15px !important;
+}
+.panel-heading {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+}
+.panel-default>.panel-heading a span{
+    clear: both;
+    float: left;
+    font-size: 12px;
+    font-weight: normal;
+}
+#subCollapse .panel-body {
+    padding: 0px 15px ;
+}
+#subCollapse .list-group{
+    margin-bottom: 0px !important;
+}
+
+#subCollapse .list-group-item:first-child {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+#subCollapse .list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+#demo4 .list-group-item{
+    padding-left: 30px;
+}
+#demo4 .list-group-item:last-child {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#subCollapse a.list-group-item-success, button.list-group-item-success {
+    color: #fff;
+}
+
+#subCollapse a.list-group-item, button.list-group-item {
+    color: #fff;
+    background: #284595;
+}   
+
+#subCollapse .list-group-item a{
+    color: #fff;
+} 
+#subCollapse .list-group-item-success {
+    color: #fff;
+    background-color: #284595;
+}
+
+
+
+#subCollapse .list-group-item [aria-expanded="true"]::after {
+    content: "\e113";
+}
+
+#subCollapse .list-group-item [aria-expanded="false"]::after {
+    content: "\e114";
+}
+
+
+
+
+#collapseOne > div > div > a:nth-child(2)::after{
+    content: "\e114";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+}
+
+#collapseOne > div > div > a:nth-child(2)[aria-expanded="true"]::after{
+    content: "\e113";
+}
+
+#collapseOne > div > div > a:nth-child(1)::after{
+    content: "\f044";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+}
+
+#collapseOne > div > div > a:nth-child(4)::after{
+    content: "\f0f6";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+}
+#collapseOne > div > div > a:nth-child(5)::after{
+    content: "\f07c";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+}
+#collapseOne > div > div > a:nth-child(6)::after{
+    content: "\f21e";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#000;
+    text-align: left;
+    height: 50px;
+    overflow: auto;
+ }
+ .footer ul li {
+    text-align: center;
+    display: inline-flex;
+}
+
+.footer ul {
+    display: inline-flex;
+}
+
+.footer ul li a{
+    margin-top: 12px;
+    float: left;
+    width: 90px;
+    color: #4d4d4d;
+}
+.footer ul li a:hover, .footer ul li a:focus{
+ color: #31b5b7; text-decoration: none;
+}
+
+.footer ul li a:hover, .footer ul li a:focus{
+    color: #31b5b7; text-decoration: none;
    }

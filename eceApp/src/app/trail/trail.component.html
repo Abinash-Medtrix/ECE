@@ -1,32 +1,30 @@
 <app-sub-nav></app-sub-nav>
 <div  class="col-xs-12 col-sm-12">
       
-      <div class="panel-group" id="accordion">
+      <div class="panel-group myAccodian" id="accordion">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h4 class="panel-title">
+          <h4 class="panel-     title">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-              Collapsible Group Item #1
+              General Assesments <span>Small content describing the menu</span>
             </a>
           </h4>
         </div>
+        <div id="subCollapse">
         <div id="collapseOne" class="panel-collapse collapse in">
           <div class="panel-body">
-
-                      <div id="MainMenu">
-                        <div class="list-group panel">
-                          <a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Item 1</a>
-                          <a href="#demo4" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu"><a [routerLink]="['/home-sub']">Item 4</a></a>
-                          <div class="collapse" id="demo4">
-                            <a href="" class="list-group-item">Subitem 1</a>
-                            <a href="" class="list-group-item">Subitem 2</a>
-                          </div>
-                           <a href="#demo5" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu">Item 5</a>
-                          <a href="#demo6" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu">Item 6</a>
-                        <a href="#demo7" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu">Item 7</a>
-                        </div>
-                      </div>
-
+                <div class="list-group panel">
+                  <a href="#demo3" class="list-group-item list-group-item-success" data-toggle="collapse" data-parent="#MainMenu">Informed consent</a>
+                  <a href="#demo4" class="list-group-item list-group-item " data-toggle="collapse" data-parent="#MainMenu"><a [routerLink]="['/eligibility-criteria']">Eligibility criteria</a></a>
+                  <div class="collapse" id="demo4">
+                    <a [routerLink]="['/inclusion-criteria']" class="list-group-item">INCLUSION CRITERIA</a>
+                    <a [routerLink]="['/exclusion-criteria']" class="list-group-item">EXCLUSION CRITERIA</a>
+                  </div>
+                    <a href="#demo5" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu">Item 5</a>
+                  <a href="#demo6" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu">Item 6</a>
+                <a href="#demo7" class="list-group-item list-group-item" data-toggle="collapse" data-parent="#MainMenu">Item 7</a>
+                </div>
+            </div>
           </div>
         </div>
       </div>
@@ -34,7 +32,7 @@
         <div class="panel-heading">
           <h4 class="panel-title">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-              Collapsible Group Item #2
+              General Assesments <span>Small content describing the menu</span>
             </a>
           </h4>
         </div>
@@ -48,7 +46,7 @@
         <div class="panel-heading">
           <h4 class="panel-title">
             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-              Collapsible Group Item #3
+              General Assesments <span>Small content describing the menu</span>
             </a>
           </h4>
         </div>
@@ -59,6 +57,16 @@
         </div>
       </div>
     </div>
-      
-      
     </div>
+    <div class="footer">
+      <ul>
+        <li class="active"><a href="#">Screening</a></li>
+        <li><a href="">Visit 1</a></li>
+        <li><a href="">Visit 2</a></li>
+        <li><a href="">Visit 3</a></li>
+        <li><a href="">Visit 4</a></li>
+        <li><a href="">Visit 5</a></li>
+        <li><a href="">Visit 6</a></li>
+      </ul>
+    </div>
+    

@@ -19,6 +19,9 @@ import { RegisterComponent } from './register/index';
 import { HomeSubComponent } from './home-sub/home-sub.component';
 import { SubNavComponent } from './sub-nav/sub-nav.component';
 import { TrailComponent } from './trail/trail.component';
+import { InclusionCriteriaComponent } from './inclusion-criteria/inclusion-criteria.component';
+import { ExclusionCriteriaComponent } from './exclusion-criteria/exclusion-criteria.component';
+import { EligibilityCriteriaComponent } from './eligibility-criteria/eligibility-criteria.component';
 
 @NgModule({
   imports: [
@@ -36,6 +39,9 @@ declarations: [
     HomeSubComponent,
     SubNavComponent,
     TrailComponent,
+    InclusionCriteriaComponent,
+    ExclusionCriteriaComponent,
+    EligibilityCriteriaComponent,
 
 ],
 providers: [
