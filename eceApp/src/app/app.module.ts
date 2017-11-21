@@ -6,7 +6,7 @@ import { FormsModule }    from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { routing }        from './app.routing';
 
-// used to create fake backend
+// used to create  backend
 import { fakeBackendProvider } from './_helpers/index';
 import { MockBackend, MockConnection } from '@angular/http/testing';
 import { BaseRequestOptions } from '@angular/http';
@@ -21,7 +21,10 @@ import { SubNavComponent } from './sub-nav/sub-nav.component';
 import { TrailComponent } from './trail/trail.component';
 import { InclusionCriteriaComponent } from './inclusion-criteria/inclusion-criteria.component';
 import { ExclusionCriteriaComponent } from './exclusion-criteria/exclusion-criteria.component';
-import { EligibilityCriteriaComponent } from './eligibility-criteria/eligibility-criteria.component';
+import { ExclusionCriteriaSubComponent } from './exclusion-criteria-sub/exclusion-criteria-sub.component';
+import { InclusionCriteriaSubComponent } from './inclusion-criteria-sub/inclusion-criteria-sub.component';
+import { GrossDescriptionComponent } from './gross-description/gross-description.component';
+import { MicroscopicDiagnosisComponent } from './microscopic-diagnosis/microscopic-diagnosis.component';
 
 @NgModule({
   imports: [
@@ -41,7 +44,11 @@ declarations: [
     TrailComponent,
     InclusionCriteriaComponent,
     ExclusionCriteriaComponent,
-    EligibilityCriteriaComponent,
+    ExclusionCriteriaSubComponent,
+    InclusionCriteriaSubComponent,
+    GrossDescriptionComponent,
+    MicroscopicDiagnosisComponent,
+
 
 ],
 providers: [
@@ -50,7 +57,7 @@ providers: [
     AuthenticationService,
     UserService,
 
-    // providers used to create fake backend
+    // providers used to create  backend
     fakeBackendProvider,
     MockBackend,
     BaseRequestOptions
